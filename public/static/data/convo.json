@@ -1,0 +1,55 @@
+{
+    "conversation": [
+      {
+          "title": "Conversation Model",
+          "text": "Set up text",
+          "prompt": "Choose the right question",
+          "startStatement": "Customer Statement 1",
+          "choice1": "Choice 1",
+          "choice2": "Choice 2 (correct)",
+          "choice3": "Choice 3",
+          "correctAnswers": 2,
+          "choice1Response": "Choice 1 Response.",
+          "choice2Response": "Choice 2 Response.",
+          "choice3Response": "Choice 3 Response.",
+          "choice1Image": "customer-neutral.png",
+          "choice2Image": "customer-happy.png",
+          "choice3Image": "customer-frustrated.png",
+          "choice1Feedback": "Choice 1 Feedback, Incorrect.",
+          "choice2Feedback": "Choice 2 Feedback, Correct!",
+          "choice3Feedback": "Choice 3 Feedback, Incorrect."
+      },
+      {
+          "startStatement": "Customer Statement 2",
+          "choice1": "Choice 1 (correct)",
+          "choice2": "Choice 2",
+          "choice3": "Choice 3",
+          "correctAnswers": 1,
+          "choice1Response": "Choice 1 Response.",
+          "choice2Response": "Choice 2 Response.",
+          "choice3Response": "Choice 3 Response.",
+          "choice1Image": "customer-neutral.png",
+          "choice2Image": "customer-frustrated.png",
+          "choice3Image": "customer-frustrated.png",
+          "choice1Feedback": "Choice 1 Feedback, Ccorrect.",
+          "choice2Feedback": "Choice 2 Feedback, Incorrect!",
+          "choice3Feedback": "Choice 3 Feedback, Incorrect."
+      },
+      {
+          "startStatement": "Customer Statement 3",
+          "choice1": "Choice 1",
+          "choice2": "Choice 2 (correct)",
+          "choice3": "Choice 3",
+          "correctAnswers": 2,
+          "choice1Response": "Choice 1 Response.",
+          "choice2Response": "Choice 2 Response.",
+          "choice3Response": "Choice 3 Response.",
+          "choice1Image": "customer-frustrated.png",
+          "choice2Image": "customer-happy.png",
+          "choice3Image": "customer-frustrated.png",
+          "choice1Feedback": "Choice 1 Feedback, Incorrect.",
+          "choice2Feedback": "Choice 2 Feedback, Correct!",
+          "choice3Feedback": "Choice 3 Feedback, Incorrect."
+      }
+    ]
+}

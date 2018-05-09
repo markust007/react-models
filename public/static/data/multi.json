@@ -1,0 +1,33 @@
+{
+  "multi": [
+    {
+      "title": "Muiltiple Choice Model",
+      "question": "Some question here?",
+      "button": "Choice 1 (correct)",
+      "value": 1,
+      "correctAnswers": "1, 3, 5",
+      "correct": "Correct Feedback.",
+      "incorrect": "Incorrect Feedback."
+    },
+    {
+      "button": "Choice 2",
+      "value": 2
+    },
+    {
+      "button": "Choice 3 (correct)",
+      "value": 3
+    },
+    {
+      "button": "Choice 4",
+      "value": 4
+    },
+    {
+      "button": "Choice 5 (correct)",
+      "value": 5
+    },
+    {
+      "button": "Choice 6",
+      "value": 6
+    }
+  ]
+}

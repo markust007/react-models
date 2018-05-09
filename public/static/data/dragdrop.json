@@ -1,0 +1,26 @@
+{
+    "dragdrop": [
+      {
+        "title": "Drag and Drop Model",
+        "drag": "Drag 1",
+        "value": 1,
+        "id": "drag1",
+        "feedback": "Final Feedback"
+    },
+    {
+        "drag": "Drag 2",
+        "value": 2,
+        "id": "drag2"
+    },
+    {
+        "drag": "Drag 3",
+        "value": 3,
+        "id": "drag3"
+    },
+    {
+        "drag": "Drag 4",
+        "value": 4,
+        "id": "drag4"
+    }
+  ]
+}

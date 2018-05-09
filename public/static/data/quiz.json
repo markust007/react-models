@@ -1,0 +1,107 @@
+{
+    "quiz": [
+      {
+        "title": "Quiz Model",
+        "question": "Question 1",
+        "button1": "Answer 1",
+        "button2": "Answer 2 (correct)",
+        "button3": "Answer 3",
+        "button4": "Answer 4",
+        "correctAnswer": 2,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer.",
+        "finalPassing": "Congratulations! You have passed this quiz.",
+        "finalFailing": "Sorry, you did not pass this quiz."
+    },
+    {
+        "question": "Question 2",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3",
+        "button4": "Answer 4 (correct)",
+        "correctAnswer": 4,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 3",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3 (correct)",
+        "button4": "Answer 4",
+        "correctAnswer": 3,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 4",
+        "button1": "Answer 1 (correct)",
+        "button2": "Answer 2",
+        "button3": "Answer 3",
+        "button4": "Answer 4",
+        "correctAnswer": 1,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 5",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3 (correct)",
+        "button4": "Answer 4",
+        "correctAnswer": 3,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 6",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3",
+        "button4": "Answer 4 (correct)",
+        "correctAnswer": 4,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 7",
+        "button1": "Answer 1 (correct)",
+        "button2": "Answer 2",
+        "button3": "Answer 3",
+        "button4": "Answer 4",
+        "correctAnswer": 1,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 8",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3",
+        "button4": "Answer 4 (correct)",
+        "correctAnswer": 4,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 9",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3 (correct)",
+        "button4": "Answer 4",
+        "correctAnswer": 3,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    },
+    {
+        "question": "Question 10",
+        "button1": "Answer 1",
+        "button2": "Answer 2",
+        "button3": "Answer 3 (correct)",
+        "button4": "Answer 4",
+        "correctAnswer": 3,
+        "correct": "Yes! This is the correct answer.",
+        "incorrect": "No, this is not the correct answer."
+    }
+    ]
+}

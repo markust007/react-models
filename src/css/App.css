@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: #ccc;
+  order: -1;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-width: 28%;
+  /*background: #ffa71c;*/
+  background: #333;
+  position: relative;
+  transition: all .3s;
+}
+.nav.close {
+  margin-top: -120px;
+}
+.nav li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: left;
+}
+.nav li a {
+  color: #ddd;
+  /*color: #fff;*/
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.nav li a:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #ffa71c;
+  margin-right: 12px;
+}
+.nav li a.active {
+  background: rgba(255,167,28, 1);
+  color: #fff;
+  /*border-top: 1px solid rgba(255,255,255,0.4);
+  border-bottom: 1px solid rgba(0,0,0,0.6);*/
+}
+.nav li a.active:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border: 1px solid #fff;
+  background: #fff
+}
+.nav .close {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: white;
+  right: 0;
+  bottom: -25px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.nav .close div {
+  transition: all .3s;
+}
+.nav .close div.turn {
+  transform: rotate(45deg);
+}
+
+@media all and (min-width: 640px) {
+  .main {
+    flex-direction: row;
+  }
+  .nav {
+    height: 100vh;
+  }
+  .nav.close {
+    margin-left: -28%;
+    margin-top: 0;
+  }
+  .nav .close {
+    right: -25px;
+    bottom: auto;
+  }
+}
